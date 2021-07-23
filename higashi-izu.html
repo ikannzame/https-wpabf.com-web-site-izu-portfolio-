@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>東伊豆おすすめプラン詳細</title>
+    <meta name="description" content="伊豆への旅行は当社にお任せください。当社は伊豆に特化した旅行会社です。（架空の会社です。）伊豆を知り尽くした当社ならではプランで伊豆半島を満喫できます。東伊豆、南伊豆、中伊豆、西伊豆とエリアごとにおすすめプランをご用意しております。">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./izu-portfolio.images/izu-map.png">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="stylesheet" href="./stylesheet.scss">
+    <link rel="stylesheet" href="./res/responsive.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./aos.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--headerの作成　ハンバーガーメニュー（レスポンシブも含む）-->
+    <header id="header">
+        <h1 class="site-title"><a href="#"><img src="./izu-portfolio.images/izu-company-original-logo.png" alt="会社ロゴ"></a></h1>
+        <nav class="header-nav">
+            <ul class="header-nav-menu">
+                <li class="header-item"><a href="#">会社概要</a></li>
+                <li class="header-item"><a href="#">おすすめプラン</a></li>
+                <li class="header-item" id="login-show"><a href="#">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <!--ハンバーガーメニューでドロアーメニュー仕様。750pxでスマホサイズのレスポンシブ仕様になってます。-->
+        <button type="button" class="btn js-btn">
+          <span class="btn-line"></span>
+        </button>
+        <nav>
+          <ul class="menu">
+            <li class="header-item2"><a href="#">会社概要</a></li>
+            <li class="header-item2"><a href="#">おすすめプラン</a></li>
+            <li class="header-item2" id="login-show2"><a href="#">お問い合わせ</a></li>
+          </ul>
+        </nav>
+    
+
+
+    <!--「お問い合わせ」クリック時のモーダルの作成（PC用）-->
+    <div class="login-modal-wrapper" id="login-modal">
+      <div class="modal">
+        <div class="close-modal">
+          <i class="fa fa-2x fa-times"></i>
+        </div>
+        <div id="login-form">
+          <h2>お問い合わせフォーム</h2>
+          <form action="#">
+            <input class="form-control" type="name" placeholder="お名前">
+            <input class="form-control" type="text" placeholder="メールアドレス">
+            <textarea placeholder="Message" name="message" repuired></textarea>
+            <div id="submit-btn"　value="送信">送信</div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--「お問い合わせ」クリック時のスマホサイズのモーダル作成（ＳＰ用）-->
+    <div class="login-modal-wrapper2" id="login-modal2">
+      <div class="modal2">
+        <div class="close-modal2">
+          <i class="fa fa-2x fa-times"></i>
+        </div>
+        <div id="login-form">
+          <h2>お問い合わせフォーム</h2>
+          <form action="#">
+            <input class="form-control" type="name" placeholder="お名前">
+            <input class="form-control" type="text" placeholder="メールアドレス">
+            <textarea placeholder="Message" name="message" repuired></textarea>
+            <div id="submit-btn"　value="送信">送信</div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--ここまではトップベージのヘッダー部分と同じ-->
+
+
+
+    <!--ここからがhigashi-izu.htmlの内容-->
+    <div id="plan-introduction2">
+      <main>
+          <article id="naka-izu">
+            <img src="./izu-portfolio.images/east-izu-picture2.JPG" alt="picture 大室山">
+            <h2>ようこそ総合力の東伊豆へ</h2>
+          </article>
+      </main>
+
+      <aside id="plan-details">
+        <h2>東伊豆おすすめプラン詳細</h2>
+        <p>🔷熱海サンビーチ（１日目）</p>
+        <p class="arrow-down"><span>↓</span></p>
+        <p>🔷熱海城</p>
+        <p class="arrow-down"><span>↓</span></p>
+        <p>🔷〇〇レストランで昼食</p>
+        <p class="arrow-down"><span>↓</span></p>
+        <p>🔷道の駅　伊東マリンタウン</p>
+        <p class="arrow-down"><span>↓</span></p>
+        <p>🔷伊豆グランパル公園</p>
+        <p class="arrow-down"><span>↓</span></p>
+        <p>🔷城ケ崎海岸</p>
+        <p class="arrow-down"><span>↓</span></p>
+        <p>🔷伊東市〇〇ペンション</p>
+        <p class="arrow-down"><span>↓</span></p>
+        <p>🔶大室山（２日目）</p>
+        <p class="arrow-down"><span>↓</span></p>
+        <p>🔶伊豆シャボテン公園</p>
+        <p class="arrow-down"><span>↓</span></p>
+        <p>🔶〇〇海鮮寿司で昼食</p>
+        <p class="arrow-down"><span>↓</span></p>
+        <p>🔶一碧湖</p>
+        <p class="arrow-down"><span>↓</span></p>
+        <p>🔶伊豆高原ステンドグラス美術館</p>
+        <p class="arrow-down"><span>↓</span></p>
+        <p>🔶〇〇cafeで東伊豆の海を見ながら休憩</p>
+        <p class="arrow-down"><span>↓</span></p>
+        <p>🔶怪しい少年少女博物館</p>
+        <p class="arrow-down"><span>↓</span></p>
+        <p>🔶伊豆熱川温泉</p>
+        <p class="arrow-down"><span>↓</span></p>
+        <p>◇伊豆アニマルキングダム（３日目）</p>
+        <p class="arrow-down"><span>↓</span></p>
+        <p>◇〇〇蕎麦屋で昼食</p>
+        <p class="arrow-down"><span>↓</span></p>
+        <p>◇伊豆スカイラインで伊豆の山道をドライブ</p>
+      </aside>
+    </div>
+
+      <!--このコースを予約するボタンのコンポーネント-->
+    <div class="send-wrapper">
+      <a href="reservation.html"><span class="reservation-btn">このコースを予約する</span></a>
+    </div>
+    
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./aos.js"></script>
+</body>
+</html>
