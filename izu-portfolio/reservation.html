@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>コース予約</title>
+    <meta name="description" content="伊豆への旅行は当社にお任せください。当社は伊豆に特化した旅行会社です。（架空の会社です。）伊豆を知り尽くした当社ならではプランで伊豆半島を満喫できます。東伊豆、南伊豆、中伊豆、西伊豆とエリアごとにおすすめプランをご用意しております。">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./izu-portfolio.images/izu-map.png">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="stylesheet" href="./stylesheet.scss">
+    <link rel="stylesheet" href="./res/responsive.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./aos.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--予約フォーム-->
+    <div class="Form">
+        <div class="Form-Item">
+          <p class="Form-Item-Label">
+            <span class="Form-Item-Label-Required">必須</span>お名前
+          </p>
+          <input type="text" class="Form-Item-Input" placeholder="例）伊豆　太郎">
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>電話番号</p>
+          <input type="tel" class="Form-Item-Input" placeholder="例）000-0000-0000">
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
+          <input type="e-mail" class="Form-Item-Input" placeholder="例）example@gmail.com">
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>お住まいの都道府県</p>
+          <select name="prefectures"　<input type="text" class="Form-Item-Input" placeholder="例）東京都">>
+            <option value="" selected>都道府県を選択</option>
+            <option value="Hokkaido">北海道</option>
+            <option value="Aomori">青森県</option>
+            <option value="Akita">秋田県</option>
+            <option value="Iwate">岩手県</option>
+            <option value="Yamagata">山形県</option>
+            <option value="Miyagi">宮城県</option>
+            <option value="Fukushima">福島県</option>
+            <option value="Ibaraki">茨城県</option>
+            <option value="Tochigi">栃木県</option>
+            <option value="Gunma">群馬県</option>
+            <option value="Saitama">埼玉県</option>
+            <option value="Kanagawa">神奈川県</option>
+            <option value="Chiba">千葉県</option>
+            <option value="Tokyo">東京都</option>
+            <option value="Yamanashi">山梨県</option>
+            <option value="Nagano">長野県</option>
+            <option value="Niigata">新潟県</option>
+            <option value="Toyama">富山県</option>
+            <option value="Ishikawa">石川県</option>
+            <option value="Fukui">福井県</option>
+            <option value="Gifu">岐阜県</option>
+            <option value="Shizuoka">静岡県</option>
+            <option value="Aichi">愛知県</option>
+            <option value="Mie">三重県</option>
+            <option value="Shiga">滋賀県</option>
+            <option value="Kyoto">京都府</option>
+            <option value="Osaka">大阪府</option>
+            <option value="Hyogo">兵庫県</option>
+            <option value="Nara">奈良県</option>
+            <option value="Wakayama">和歌山県</option>
+            <option value="Tottori">鳥取県</option>
+            <option value="Shimane">島根県</option>
+            <option value="Okayama">岡山県</option>
+            <option value="Hiroshima">広島県</option>
+            <option value="Yamaguchi">山口県</option>
+            <option value="Tokushima">徳島県</option>
+            <option value="Kagawa">香川県</option>
+            <option value="Ehime">愛媛県</option>
+            <option value="Kochi">高知県</option>
+            <option value="Fukuoka">福岡県</option>
+            <option value="Saga">佐賀県</option>
+            <option value="Nagasaki">長崎県</option>
+            <option value="Kumamoto">熊本県</option>
+            <option value="Oita">大分県</option>
+            <option value="Miyazaki">宮崎県</option>
+            <option value="Kagoshima">鹿児島県</option>
+            <option value="Okinawa">沖縄県</option>
+          </select>
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>予約希望日</p>
+          <input type="date" class="Form-Item-Input" placeholder="例）2021年6月1日">
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>予定人数</p>
+          <input type="text" class="Form-Item-Input" placeholder="例）4人">
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>コース</p>
+          <select name="prefectures"　<input type="text" class="Form-Item-Input" placeholder="例）東京都">>
+            <option value="" selected>コースを選択</option>
+            <option value="Naka-izu">中伊豆</option>
+            <option value="Nishi-izu">西伊豆</option>
+            <option value="Higashi-izu">東伊豆</option>
+            <option value="Mimami-izu">南伊豆</option>
+            </option>
+          </select>
+        </div>
+        <div class="Form-Item">
+            <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>車or電車</p>
+            <input type="radio" class="traffic" name="traffic" value="車">車
+            <input type="radio" class="traffic" name="traffic" value="電車">電車
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">任意</span>お問い合わせ内容</p>
+          <textarea class="Form-Item-Textarea"></textarea>
+        </div>
+        <input type="submit" class="Form-Btn" value="送信する">
+      </div>
+</body>
